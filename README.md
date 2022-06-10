@@ -13,6 +13,7 @@ Let’s look at the following example:
   ^  
 The Levenshtein difference between these two strings is 1. The two strings are almost identical, other than one letter. That letter, 'd’, is close to the example, 'a’, meaning the Levenshtein value will be small.
 
+
 Instructions
 Your function must take in 2 strings with the exact number of characters and return an integer representing the difference between them.
 
@@ -23,8 +24,10 @@ If the two strings are the same size, you must then iterate through each string 
 fn my_levenshtein(s1: &String, s2: &String) -> i32 {
 	...
 }
+
 TIPS (only for Rust)
 https://doc.rust-lang.org/std/iter/struct.Zip.html
+
 
 Example 00
 
